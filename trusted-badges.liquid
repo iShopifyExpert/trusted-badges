@@ -1,0 +1,73 @@
+{%comment%}{%include 'trusted-badges'%}{%endcomment%}
+<div class="cartIcon">
+  <div class="Carticons">
+    <div class="margin-bottom--down-2"><img class="block box-center" src="{{'shipping_grande.png' | asset_url}}" width="36"></div>
+    <div class="iconhead">Free Shipping Worldwide</div>
+  </div>
+  <div class="Carticons cartlat">
+    <div class="margin-bottom--down-2"><img class="block box-center" src="{{'returns_grande.png' | asset_url}}" width="36"></div>
+    <div class="iconhead">Easy Returns Worldwide</div>
+  </div>
+  <div class="Carticons">
+    <div class="margin-bottom--down-2"><img class="block box-center" src="{{'warranty_grande.png' | asset_url}}" width="36"></div>
+    <div class="iconhead">Money Back Guarantee</div>
+  </div>
+  <div class="Carticons Carticons_Last">
+    <div class="margin-bottom--down-2"><img class="block box-center" src="{{'secure__grande.png' | asset_url}}" width="36"></div>
+    <div class="iconhead">100% Secure Checkout</div>
+  </div>
+</div>
+<style>
+  .cartIcon {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    background: #fff;
+    padding: 10px;
+    border: 0;
+    box-shadow: 0px 2px 4px 0px #c0c1d08c;
+    transition: 0.5s cubic-bezier(0.47, 0, 0.75, 0.72);
+}
+  .Carticons {
+    width: 25%;
+    float: left;
+    text-align: center;
+    border-right: 1px solid #e6e6e6;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+  .Carticons_Last {
+    border-right: 0;
+}
+  .Carticons .iconhead {
+    font-size: 10px;
+    text-transform: uppercase;
+}
+  .Carticons img {
+    width: 30px;
+}
+  .Carticons .iconhead {
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.collapsible-trigger {
+    color: inherit;
+    position: relative;
+    background: #ececec;
+    border: 1px solid #fff;
+}
+.btn--secondary, .rte .btn--secondary {
+    color: #fff;
+    border: 1px solid #7a8b65;
+    background-color: #7a8b65;
+}
+.btn--secondary:hover, .rte .btn--secondary:hover {
+    color: #fff;
+    border: 1px solid #000;
+    background-color: #000;
+}
+.collapsible-trigger-btn--borders+.collapsible-content .collapsible-content__inner {
+    padding: 20px;
+}
+</style>
