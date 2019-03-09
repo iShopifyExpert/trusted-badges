@@ -1,0 +1,2 @@
+# trusted-badges
+Trusted Badges
